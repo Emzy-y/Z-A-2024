@@ -7,17 +7,17 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your worker's environment variable if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'me@lyc8503.site',
+  userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'zaemz@zhn34.onmicrosoft.com',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "lyc8503's OneDrive",
+  title: "Zero-Anime",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
-  baseDirectory: '/',
+  baseDirectory: '/Anime',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -48,11 +48,25 @@ module.exports = {
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
-    {
-      name: 'GitHub',
-      link: 'https://github.com/lyc8503',
+   {
+      name: 'Wordpress',
+      link: 'https://zeroanime20.wordpress.com/',
+    },
+      {
+      name: 'Discord',
+      link: 'https://discord.gg/uWzNBQZYyC',
+      
+    },
+        {
+      name: 'Facebook',
+      link: 'https://www.facebook.com/zeroanime2020/',
+    },
+          {
+      name: 'Twitter',
+      link: 'https://twitter.com/ZeroA2020',
     },
   ],
+
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
