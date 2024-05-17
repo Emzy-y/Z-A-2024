@@ -63,7 +63,7 @@ module.exports = {
     },
           {
       name: 'Twitter',
-      link: 'https://twitter.com/ZeroA2020',
+      link: 'https://x.com/ZeroA2020',
     },
   ],
 
