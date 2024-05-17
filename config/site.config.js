@@ -62,7 +62,7 @@ module.exports = {
       link: 'https://www.facebook.com/zeroanime2020/',
     },
           {
-      name: 'Twitter',
+      name: 'X',
       link: 'https://x.com/ZeroA2020',
     },
   ],
